@@ -1,0 +1,26 @@
+{
+    "name": "sherifai/larafawry",
+    "description": "Laravel library for Fawry payment solution",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "sherif",
+            "email": "sherif.alaa55@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SherifAI\\LaraFawry\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SherifAI\\LaraFawry\\Providers\\LaraFawryServiceProvider"
+            ]
+        }
+    }
+}
